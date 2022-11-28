@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 str1 = "Holberton"
 str2 = "School"
-print(f"Welcome to {str1} {str2}!")
+strlist = [str1, str2]
+str = " ".join(strlist)
+print("Welcome to {}!".format(str))
