@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-import add_0.py
+import add_0
 
 a = 1
 b = 2
 
-c = add(a, b)
-print( a "+" b "=" c)
+c = add_0.add(a, b)
+print( f"{a} + {b} = {c}" )
