@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-import sys
+if __name__ == "__main__":
 
-argv = len(sys.argv)
+    import sys
 
-for i in range(1, argv):
-    print("{}: {}".format(i, sys.argv[i]))
+    argv = len(sys.argv)
+
+    for i in range(1, argv):
+        print("{}: {}".format(i, sys.argv[i]))
