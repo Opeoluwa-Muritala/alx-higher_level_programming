@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-def fizzbuzz():
-    num = 1
+FIZZ = "Fizz"
+BUZZ = "Buzz"
 
-    while num != 101:
-        if ((num % 3 == 0) and (num % 5 == 0)):
-            print("FizzBuzz", end=' ')
-        elif (num % 3 == 0):
-            print("Fizz", end=' ')
-        elif (num % 5 == 0):
-            print("Buzz", end=' ')
+
+def fizzbuzz():
+    for number in range(1, 101):
+        if (number % 3 and number % 5):
+            print("%s%s" % (FIZZ, BUZZ), end=' ')
+        elif (number % 3):
+            print("%s" % (FIZZ), end=' ')
+        elif (number % 5):
+            print("%s" % (BUZZ), end=' ')
         else:
-            print(num, end=' ')
-        num += 1
+            print("%d" % (number), end=' ')
