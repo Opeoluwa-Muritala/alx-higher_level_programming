@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import {argv} from 'node:process';
+argv = process.argv;
 
 argv.forEach((val, index) => {
   if (index <= 1){
