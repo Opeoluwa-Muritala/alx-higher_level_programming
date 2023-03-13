@@ -1,4 +1,4 @@
 <script>
-  let myVar = "JavaScript is fun";
+  myVar = "JavaScript is fun";
   console.log(myVar);
 </script>
