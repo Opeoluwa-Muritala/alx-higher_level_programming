@@ -2,13 +2,13 @@
 import {argv} from 'node:process';
 
 argv.forEach((val,index) => {
- if (val = 2){
+ if (index = 2){
   console.log("Argument found);
 }
-else if (val >= 3){
+else if (index >= 3){
   console.log("Arguments found");
 }
-else if (val < 2){
+else if (index < 2){
   console.log("No Argument")
 }
   });
