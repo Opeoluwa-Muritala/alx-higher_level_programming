@@ -10,3 +10,4 @@ args.forEach((val, idx) => {
 });
 
 string = string1.concat(' is ', string2);
+console.log(string)
