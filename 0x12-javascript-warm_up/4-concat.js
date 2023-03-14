@@ -1,13 +1,13 @@
 #!/usr/bin/node
 args = process.argv;
-args.forEach((val, idx) => {
-  if (idx === 2) {
-    string1 = val;
+
+  if (args.length === 3) {
+    string1 = args[2];
   }
-  if (idx === 3) {
-    string2 = val;
+  if (args.length === 4) {
+    string2 = args[3];
   }
-});
+
 
 string = string1.concat(' is ', string2);
-console.log(string)
+console.log(string);
