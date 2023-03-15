@@ -1,13 +1,14 @@
 #!/usr/bin/node
-args = process.argv;
-string = "";
+const argv = process.argv;
+string = '';
 
-args.forEach((val, index) => {
- if (index == 2){
-  for( i = 0; i < val; i++){
-    for(j = 0; j < val; j++){
-      string += "X"}
-    string += "\n"}}
-           )
-           
-console.log(string)
+if (argv.length === 3) {
+  for (let i = 0; i < argv[2]; i++) {
+    for (let j = 0; j < argv[2]; j++) {
+     string += 'X';
+    }
+   string += '\n';
+  }
+}
+
+console.log(string);

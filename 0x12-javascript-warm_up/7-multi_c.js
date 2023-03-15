@@ -1,10 +1,8 @@
 #!/usr/bin/node
-agrv = process.argv
+const argv = process.argv;
 
-argv.forEach((val,index) => 
-if (index == 2) {
-  for(i = 0; val > 0; i < val;){
+if (argv.length === 3) {
+  for (let i = 0; i < argv[2]; i++) {
     console.log('C is fun');
-    }
   }
-})
+}

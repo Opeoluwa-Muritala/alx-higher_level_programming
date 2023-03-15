@@ -7,9 +7,13 @@ if (args.length === 4) {
 } else if (args.length === 3) {
   string1 = args[2];
   string2 = undefined;
-} else {
+} else if (args.length === 2) {
   string1 = 'undefined';
   string2 = 'undefined';
+}
+else {
+  string1 = args[2];
+  string2 = args[3];
 }
 
 const string = string1.concat(' is ', string2);
