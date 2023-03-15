@@ -1,11 +1,12 @@
 #!/usr/bin/node
 argv = process.argv
 
-argv.forEach((val, index) => 
-if (index == 2) && isNan(val){
-  console.log('My Number : ${val})}
-else {
+ 
+if (argv[2] == undefined || isNaN(argv[2]) == true){
   console.log('Not a number');
+}
+else {
+  console.log(parseInt(argv[2]));
 }
 
 
