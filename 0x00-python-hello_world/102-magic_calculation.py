@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-def magic_calculation(a,b):
-    dis.dis(a,b)
+def magic_calculation(a, b):
+
+    return (98 + a**b)
