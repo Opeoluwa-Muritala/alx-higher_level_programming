@@ -5,4 +5,4 @@ for i in range(97, 123):
         strng = strng + chr(i - 32)
     else:
         strng = strng + chr(i)
-print("{}".format("".join(reversed(strng))))
+print("{}".format("".join(reversed(strng))), end="")
