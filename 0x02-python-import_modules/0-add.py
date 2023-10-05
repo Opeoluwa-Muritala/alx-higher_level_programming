@@ -6,4 +6,4 @@ if __name__ == "__main__":
     b = 2
 
     addition = add(a, b)
-    print(f"{a} + {b} = {addition}")
+    print(a "+" b = addition)
