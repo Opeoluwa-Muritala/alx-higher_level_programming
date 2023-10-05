@@ -8,7 +8,7 @@ if __name__ == "__main__":
     if (len(argv) != 0):
         strng = "arguments" if len(argv) > 1 else "argument"
         print("{} {}:".format(number_arguments, strng))
-        for index, arg in enumerate(argv, start = 1):
+        for index, arg in enumerate(argv, start=1):
             print("{}: {}".format(index, arg))
     else:
         print("0 arguments")
