@@ -11,4 +11,4 @@ if __name__ == "__main__":
         for index, arg in enumerate(argv, start=1):
             print("{}: {}".format(index, arg))
     else:
-        print("0 arguments")
+        print("0 arguments.")
