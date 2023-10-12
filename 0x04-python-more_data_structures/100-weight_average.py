@@ -8,5 +8,5 @@ def weight_average(my_list=[]):
     for t in my_list:
         bottom += t[1]
         top += t[0] * t[1]
-    average = top/bottom
+    average = top / bottom
     return average
