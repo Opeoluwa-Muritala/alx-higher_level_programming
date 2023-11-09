@@ -9,4 +9,5 @@ class Square(Rectangle):
     def __init__(self, size):
         """set the values and initialize the class"""
         self.__size = size
+        self.integer_validator("size", self.__size)
         Rectangle.__init__(self, self.__size, self.__size)
