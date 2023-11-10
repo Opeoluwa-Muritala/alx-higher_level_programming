@@ -5,6 +5,4 @@
 def read_file(filename=""):
     """Read From File"""
     with open(filename, 'r') as file:
-        lines = file.readlines()
-    for line in lines:
-        print(line.strip())
+        print(file.read(), end="")
