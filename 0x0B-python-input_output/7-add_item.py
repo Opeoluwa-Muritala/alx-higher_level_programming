@@ -8,7 +8,8 @@ load_from_json_file= __import__('6-load_from_json_file').load_from_json_file
 
 def add_item(item, filename = "add_item.json"):
     """Create A list in a JSON file and Append New Items to It"""
-    
+    argu = []
+    argu.append
     jsonFile = load_from_json_file(filename)
-    jsonFile.append(item)
-    save_to_json_file(item, filename)
+    jsonFile.extend(argu)
+    save_to_json_file(argu, filename)
