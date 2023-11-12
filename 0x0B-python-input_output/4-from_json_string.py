@@ -4,4 +4,5 @@ import json
 
 
 def from_json_string(my_str):
+    """Return Python Data Structure"""
     return json.loads(my_str)
