@@ -7,8 +7,7 @@ This repoitory contains all the projects that I have done in the ALX curriculum 
 | [0x01-python-if_else_loops_functions](0x01-python-if_else_loops_functions) | Introduction to if/else statements, loops and functions | 
 | [0x02-python-import_modules](0x02-python-import_modules)| Introduction to the use of import statements|
 | [0x04-python-data_structures](0x03-python-data_structures)| Introduction to python data structures|
-| [0x04-python-more_data_structures](0x04-python-more_data_structures)| 
-More tasks on Python data structures|
+| [0x04-python-more_data_structures](0x04-python-more_data_structures)|More tasks on Python data structures|
 | [0x05-python-exceptions](0x05-python-exceptions)| Introduction to python exceptions|
 [0x06-python-classes](0x06-python-classes)| Introduction to Python classes|
 |[0x07-python-test_driven_development](0x07-python-test_driven_development)| Introduction to python writing doc-tests in python|
